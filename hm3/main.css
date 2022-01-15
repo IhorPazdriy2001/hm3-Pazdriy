@@ -1,5 +1,5 @@
 body{
-    background-color: silver;
+    background-color: #efefef;
 }
 #container{
 
@@ -7,36 +7,51 @@ body{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    border: 3px solid red;
-    border-radius: 5px;
+    border: 5px solid #999999;
+    border-radius: 10px;
+
+
 
 
 
 }
 
+.p1{
+    text-align: center;
+    margin-top: 5%;
+}
 
+.p2{
+    text-align: center;
+    margin-top: 25%;
+}
+.p3{
+    text-align: center;
+    margin-top: 38%;
+}
 
 .a{
     margin: 5px;
-    background-color: black;
+    background-color: #d7d7d7;
     height: 200px;
-    width: 1560px;
+    width: 100%;
 
 }
 
 .b{
 
-    background-color: blue;
-    height: 400px;
-    width: 1200px;
+    background-color: #d7d7d7;
+    height: 482px;
+    width: 60%;
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 5px;
 }
 
 .c{
-    background-color: darkgreen;
-    height: 400px;
-    width: 285px;
-    margin-right: 5px;
+    background-color: #d7d7d7;
+    height: 482px;
+    width: 39%;
+
+    /*flex-grow: 1;*/
 }
