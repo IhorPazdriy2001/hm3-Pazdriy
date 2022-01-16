@@ -1,15 +1,9 @@
-body {
-    background-color: silver;
-}
-
 .border {
-
     border: 3px solid black;
     border-radius: 5px;
     margin: 10px;
-    padding: 5px;
     background-color: white;
-
+    padding: 5px;
 }
 
 .con-1 {
@@ -25,49 +19,40 @@ body {
 
 .con-2 {
     display: flex;
+
+}
+
+.col {
+    display: flex;
     flex-wrap: wrap;
-
-
 }
 
-.B {
-    background-color: silver;
-    width: 1200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5px;
-}
-
-
-.col{
-    display: flex;
-}
-.C, .D, .E {
+.B, .C, .D,.E,.F,.G {
     background-color: silver;
     width: 397px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
     margin-right: 5px;
+
+
 }
 
-.F {
-    background-color: silver;
-    width: 200px;
-    height: 404px;
-    flex-grow: 1;
+.D,.G{
+    margin-right: 0px;
+}
+
+.H {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 530px;
+    height: 405px;
+    background-color: silver;
 
 
-
+    /*чому такий великий великий відступ між H i D,G?,як його забрати*/
 
 }
-
-
-
-
