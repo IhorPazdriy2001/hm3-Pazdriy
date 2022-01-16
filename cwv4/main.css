@@ -1,0 +1,48 @@
+.mainh {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-style: normal;
+    font-size: medium;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.service1, .service2, .service3, .service4 {
+    display: flex;
+    height: 300px;
+    width: 210px;
+    border: 1px;
+    box-shadow: 4px 4px 8px 0px silver;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+h3 {
+    color: #c88d60;
+}
+
+p {
+    text-align: center;
+
+
+}
+
+.bottomstyle {
+    border: 1px solid #55c2b5;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55c2b5;
+    color: white;
+
+}
+

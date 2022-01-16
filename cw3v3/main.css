@@ -1,0 +1,76 @@
+.container-1, .container-2, .container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.home {
+    background-color: #2269ba;
+    height: 400px;
+    width: 270px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+
+}
+
+.about {
+    background-color: #2269ba;
+    height: 400px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 200px;
+    background-color: #2269ba;
+    color: white;
+    font-size: 35px;
+}
+
+.Shishkabobs {
+    background-color: #16457a;
+    width: 180px;
+    height: 220px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.BBQkabobs {
+    background-color: #16457a;
+    width: 180px;
+    height: 220px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Summerkabobs {
+    background-color: #16457a;
+    width: 180px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
