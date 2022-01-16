@@ -1,0 +1,78 @@
+.container-1, .container-2, .container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+p {
+
+    text-align: center;
+
+
+}
+
+/*.p{*/
+/*    як зробити щоб текст стояв по центрі в кожному блоці*/
+/*}*/
+
+.container-1 div {
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.container-3 div {
+    border: 2px solid black;
+    margin: 2px;
+}
+
+#menu {
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.post {
+    border: 2px solid black;
+    margin: 2px;
+}
+
+
+#header {
+    background-color: #e5f6af;
+    width: 500px;
+    height: 100px;
+    /*margin-left: 33%;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+
+
+}
+
+#menu {
+    background-color: #fdb6fe;
+    width: 154px;
+    height: 332px;
+
+
+}
+
+.post {
+    background-color: #9ee1fe;
+    width: 330px;
+    height: 162px;
+    flex-grow: 1;
+    margin-left: 10px;
+
+}
+
+.conpost {
+    flex-direction: column;
+}
+
+#footer {
+    background-color: #fdfdc9;
+    width: 500px;
+    height: 100px;
+
+}

@@ -1,0 +1,45 @@
+.container-1, .container-2, .container-3{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.headW1{
+    width: 600px;
+    height: 200px;
+    background-color: #2269ba;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.container-2 div{
+    height: 230px;
+    width: 187px;
+    background-color: #16457a;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: white;
+
+}
+
+.HW{
+    width: 600px;
+    height: 400px;
+    background-color: #2269ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+
