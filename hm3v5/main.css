@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WDes, .WDev{
+    margin-top: 30px;
+}
+.WDes{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    width: 400px;
+    height: 120px;
+    border-radius: 7px;
+    margin-right: 20px;
+
+
+}
+.WDev{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    width: 400px;
+    height: 120px;
+    border-radius: 7px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+    margin-left: 5px;
+}
